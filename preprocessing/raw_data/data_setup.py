@@ -6,6 +6,10 @@ from onedrivedownloader import download
 dir = os.path.dirname(os.path.abspath(__file__))
 print(dir)
 
+os.mkdir(dir + '/inner')
+os.mkdir(dir + '/outer')
+os.mkdir(dir + '/total')
+
 # Download Raw Data
 print('Download Inner Domain Raw Data...')
 ln_inner = 'https://iewha-my.sharepoint.com/:u:/g/personal/yubinryu_i_ewha_ac_kr/EZxJmzae2lxPjweEpqsaL0cBMTZJ3bZTeO6elcJB8QcKVw?e=Ioz7ne'
