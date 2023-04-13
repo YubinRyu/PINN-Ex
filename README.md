@@ -11,8 +11,8 @@ Run the following command to set up.
     
 You need to download preprocessed data or raw data to train this model. 
 
-    python data_setup.py # Preprocessed data
-    python preprocessing/data_setup.py # Raw data
+    python data/data_setup.py # Preprocessed data
+    python preprocessing/raw_data/data_setup.py # Raw data
 
 ## Workflow
 ### 1) Data preprocessing
